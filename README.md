@@ -69,3 +69,5 @@ Loading a pretrained network, such as VGG16, and using the SegNetLayers command,
 ### STEP 5: Train and evaluate the network.
 In the final step, you set hyperparameters for the network and train the network.
 
+![Image of training410](training410.png)
+
