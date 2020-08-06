@@ -57,8 +57,15 @@ To create a SegNet, you need two datastores:
 
 **Figure 4.** Images with labels built in ImageLabeller App
 
+### STEP 3: Partition the datastores.
+When creating a SegNet, you have to partition the datastore into two parts:
 
+1. The training set, used to train the SegNet
+2. The test set, used to evaluate the accuracy of a network
 
+### STEP 4: Import a CNN and modify it to be a SegNet or Deeplabv3plus.
+Loading a pretrained network, such as VGG16, and using the SegNetLayers command, creates the encoder-decoder architecture necessary for pixel-level labeling.
 
-
+### STEP 5: Train and evaluate the network.
+In the final step, you set hyperparameters for the network and train the network.
 
