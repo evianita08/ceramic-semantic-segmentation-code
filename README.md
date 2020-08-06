@@ -13,3 +13,7 @@ SegNet  architecture  with the DeepLabV3plus were compared. A new dataset named 
 is also proposed as a training and evaluation data. The training data that we have collected 
 shows promising results on visual inspection when using the proposed algorithm. 
 We believe that this work could improve to a more advanced manufacturing industries.
+
+![Image of IO](IO.png)
+
+**Input RGB Image from UBIN dataset and Output Ground Truth based on  Class  label.  The  Background  class  is  segmented  using  blue  color,  while the crack class is segmented using brown color**
