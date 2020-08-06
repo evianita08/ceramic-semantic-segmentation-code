@@ -37,3 +37,18 @@ One option is to find labeled data on the Internet. If you have your own dataset
 You can use this dataset to train a SegNet.
 
 ![Image of segmentationusingimagelabeller](segmentationusingimagelabeller.png)
+**Figure 2.** MATLAB Image Labeler app to label images for semantic segmentation.
+
+### STEP 2: Create a datastore for original images and labeled images.
+When working with lots of data, it is often not possible to load all the information into memory. 
+To manage large datasets, you can use a datastore. 
+A datastore contains the location of the files you want to access, and it lets you read them into memory only when you need to operate on the files.
+
+To create a SegNet, you need two datastores:
+
+1. ImageDatastore, which contains the original images
+2. PixelLabelDatastore, which contains the labeled images
+
+
+
+
