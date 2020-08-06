@@ -55,7 +55,7 @@ To create a SegNet, you need two datastores:
 
 ![Image of groundtruth](groundtruth.png)
 
-**Figure 4.** Images with labels built in ImageLabeller Tools
+**Figure 4.** Images with labels built in ImageLabeller App
 
 
 
