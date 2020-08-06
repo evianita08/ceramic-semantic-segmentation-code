@@ -36,7 +36,7 @@ Deep learning models are built on lots of data, and semantic segmentation is no 
 One option is to find labeled data on the Internet. If you have your own dataset, you can use the Image Labeler app in MATLAB. 
 You can use this dataset to train a SegNet.
 
-![Image of segmentationusingimagelabeller](segmentationusingimagelabeller.png)
+
 **Figure 2.** MATLAB Image Labeler app to label images for semantic segmentation.
 
 ### STEP 2: Create a datastore for original images and labeled images.
