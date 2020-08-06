@@ -1,4 +1,5 @@
-# ceramic-semantic-segmentation-code
+# Tile Surface Segmentation Using Deep Convolutional Encoder-Decoder Architecture
+***
 Visual inspection systems in industries have increasingly gained a lot of interests. 
 Advances in manufacturing activities have led to mass production in order to reduce overall operational cost. 
 The visual inspection systems provide instant quantitative feedback such as quantity and type of defects. 
@@ -17,3 +18,21 @@ We believe that this work could improve to a more advanced manufacturing industr
 ![Image of IO](IO.png)
 
 **Input RGB Image from UBIN dataset and Output Ground Truth based on  Class  label.  The  Background  class  is  segmented  using  blue  color,  while the crack class is segmented using brown color**
+
+## Using MATLAB for Semantic Segmentation
+
+[Image Processing and Computer Vision Semantic Segmentation](https://www.mathworks.com/solutions/image-video-processing/semantic-segmentation.html)
+
+In MATLAB, the workflow for performing semantic segmentation follows these five steps:
+
+1. Label data or obtain labeled data.
+2. Create a datastore for original images and labeled images.
+3. Partition the datastores.
+4. Import a CNN and modify it to be a SegNet.
+5. Train and evaluate the network.
+
+### STEP 1: Label data or obtain labeled data.
+Deep learning models are built on lots of data, and semantic segmentation is no exception. 
+One option is to find labeled data on the Internet. If you have your own dataset, you can use the Image Labeler app in MATLAB. 
+You can use this dataset to train a SegNet.
+
