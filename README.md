@@ -49,8 +49,16 @@ To create a SegNet, you need two datastores:
 1. ImageDatastore, which contains the original images
 2. PixelLabelDatastore, which contains the labeled images
 
-![Image of groundtruth](grountruth.png)
 ![Image of dataset](dataset.png)
+
+**Figure 3.** UBIN Dataset that exist in ImageDatastore
+
+![Image of groundtruth](groundtruth.png)
+
+**Figure 4.** Images with labels built in ImageLabeller Tools
+
+
+
 
 
 
